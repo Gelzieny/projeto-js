@@ -82,9 +82,16 @@ export const catalogo = {
     }
   },
 
-  ordenarPorPreco() {
+  ordenarPorPreco(ordem = "asc") {
     try {
-      return [...produtos].sort((a, b) => a.preco - b.preco);
+      const listaOrdenada = [...produtos].sort((a, b) => {
+        if (ordem === "desc") {
+          return b.preco - a.preco; // maior para menor
+        }
+        return a.preco - b.preco; // menor para maior
+      });
+
+      return listaOrdenada;
     } catch (erro) {
       console.error("Erro ordenarPorPreco:", erro.message);
       return produtos;

@@ -44,6 +44,12 @@ try {
 
   console.log("\nPromo aleatória:");
   console.log(sorteioPromo(produtos));
+
+  console.log("\nOrdem por Preço (crescente):");
+  console.table(catalogo.ordenarPorPreco("asc"));
+
+  console.log("\nOrdem por Preço (decrescente):");
+  console.table(catalogo.ordenarPorPreco("desc"));
 } catch (erro) {
   console.error("Erro geral na aplicação:", erro.message);
 }
