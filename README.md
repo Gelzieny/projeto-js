@@ -5,7 +5,7 @@ Gerenciador de Catálogo e Carrinho • Com Map, Try/Catch, Cupons e Estoque
 
   * José Fábio dos Santos do Nascimento Júnior
   * Gelzieny Rezende Martins
-  * Sâmia Luvanice
+  * Sâmia Luvanice Ferreira Soares
   * Iara Venâncio Ribeiro
   * Thaís Silva
 
