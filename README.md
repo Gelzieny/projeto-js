@@ -1,13 +1,5 @@
 # 🛒 Mini Loja — Projeto JavaScript  
-Gerenciador de Catálogo e Carrinho • Com Map, Try/Catch, Cupons e Estoque
-
-👥 Grupo 3 — Participantes
-
-  * José Fábio dos Santos do Nascimento Júnior
-  * Gelzieny Rezende Martins
-  * Sâmia Luvanice Ferreira Soares
-  * Iara Venâncio Ribeiro
-  * Thaís Silva
+Gerenciador de Catálogo e Carrinho • Com Map, Try/Catch, Cupons e Estoque.
 
 Este repositório implementa uma **mini aplicação de loja** em JavaScript, com foco em lógica de programação, modularização, manipulação de arrays, Maps, tratamento de erros e simulação de catálogo/carrinho.
 
